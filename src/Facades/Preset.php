@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace MageEye\Native\WinPre\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use MageEye\Native\WinPre\PresetManager;
 use MageEye\Native\WinPre\WinPreManager;
 
 /**
@@ -16,6 +17,6 @@ class Preset extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return WinPreManager::class;
+        return PresetManager::class;
     }
 }
