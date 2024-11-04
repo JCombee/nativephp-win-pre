@@ -26,9 +26,5 @@ class WinPreServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../routes/window.php' => base_path('routes/window.php'),
         ]);
-
-        if (is_file(base_path('routes/window.php'))) {
-            require_once base_path('routes/window.php');
-        }
     }
 }

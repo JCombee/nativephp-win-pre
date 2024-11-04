@@ -15,6 +15,7 @@ class PresetManager
 
     public function preset(string $id, callable $handle): static
     {
+        logger('setting: ' . $id);
         $this->presets->put($id, $handle);
 
         return $this;
