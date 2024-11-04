@@ -14,7 +14,7 @@
     ],
     "require": {
         "laravel/framework": "^v11.0",
-        "nativephp/laravel": "^v0.6.2"
+        "nativephp/laravel": "^v0.6.1"
     },
     "extra": {
         "laravel": {
