@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MageEye\Native\WinPre;
+namespace JCombee\Native\WinPre;
 
 use Exception;
 

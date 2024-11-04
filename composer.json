@@ -2,7 +2,7 @@
     "name": "mage-eye/nativephp-win-pre",
     "autoload": {
         "psr-4": {
-            "MageEye\\Native\\WinPre\\": "src/"
+            "JCombee\\Native\\WinPre\\": "src/"
         }
     },
     "authors": [
@@ -13,12 +13,12 @@
     ],
     "require": {
         "laravel/framework": "^v11.0",
-        "nativephp/laravel": "^v0.6"
+        "nativephp/laravel": "^v0.6.2"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MageEye\\Native\\WinPre\\WinPreServiceProvider"
+                "JCombee\\Native\\WinPre\\WinPreServiceProvider"
             ]
         }
     }

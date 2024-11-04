@@ -1,6 +1,6 @@
 <?php
 
-use MageEye\Native\WinPre\Facades\Preset;
+use JCombee\Native\WinPre\Facades\Preset;
 use Native\Laravel\Windows\Window;
 
 Preset::preset('main', static function (Window $window) {

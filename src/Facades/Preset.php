@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace MageEye\Native\WinPre\Facades;
+namespace JCombee\Native\WinPre\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use MageEye\Native\WinPre\PresetManager;
-use MageEye\Native\WinPre\WinPreManager;
+use JCombee\Native\WinPre\PresetManager;
+use JCombee\Native\WinPre\WinPreManager;
 
 /**
  * @method static WinPreManager preset(string $string, callable $handle)

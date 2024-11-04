@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MageEye\Native\WinPre;
+namespace JCombee\Native\WinPre;
 
 use Native\Laravel\Facades\Window as WindowFacade;
 use Native\Laravel\Windows\Window;
