@@ -1,0 +1,25 @@
+{
+    "name": "mage-eye/nativephp-win-pre",
+    "autoload": {
+        "psr-4": {
+            "MageEye\\Native\\WinPre\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jerke Combee",
+            "email": "jerke1988@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^v11.0",
+        "nativephp/laravel": "^v11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MageEye\\Native\\WinPre\\WinPreServiceProvider"
+            ]
+        }
+    }
+}
