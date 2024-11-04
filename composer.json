@@ -1,5 +1,6 @@
 {
     "name": "mage-eye/nativephp-win-pre",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "JCombee\\Native\\WinPre\\": "src/"
