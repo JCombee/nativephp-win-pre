@@ -56,7 +56,7 @@ Now you will see that the first window will be opened based on the settings you 
 
 ### Pass through parameters
 
-[(under construction)][#roadmap]
+[(under construction)](#roadmap)
 
 Sometimes you might want to add some dynamic configuration to your window, for instance the url.
 To do this we can add parameters to our preset.
