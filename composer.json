@@ -1,5 +1,5 @@
 {
-    "name": "mage-eye/nativephp-win-pre",
+    "name": "jcombee/nativephp-win-pre",
     "license": "MIT",
     "autoload": {
         "psr-4": {
